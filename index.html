@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500;700;900&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/stylesheets/home.css" />
+<link rel="stylesheet" href="/stylesheets/index.css" />
+<script src="scripts/script.js"></script>
+<script src="https://kit.fontawesome.com/e661d83a09.js" crossorigin="anonymous"></script>
+<title>Wolves For The Curious</title>
+</head>
+<body>
+    <div class="page-wrapper home">
+        <!-- Home page landing wrapper -->
+        <div class="landing-wrapper">
+            <div class="header-wrapper">
+                <h1 class="heading-title">Wolves For The Curious</h1>
+                <div class="audio-wrapper">
+                    <p>What does the wolf say?</p>
+                    <i onclick="playWolfHowl()" class="fas fa-volume-up"></i>
+                    <audio id="wolf-howl" src="assets/sounds/wolf6.mp3"></audio>
+                </div>
+                <div class="nav-links">
+                    <a href="#">Types of Wolves</a>
+                    <a href="#">Populations & Locations</a>
+                    <a href="#">Wolf Mythology</a>
+                </div>
+            </div>
+            <div class="learn-more-wrapper">
+                <form class="form-wrapper">
+                    <h2 class="form-title">Sign up for our weekly wolf email!</h2>
+                    <input type="text" id="first-name" placeholder="First Name" />
+                    <input type="text" id="last-name" placeholder="Last Name" />
+                    <input type="email" id="email" placeholder="Email" />
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="scroll-wrapper">
+                    <h3 class="sub-heading"><span>Scroll</span> to see more</h3>
+                    <i class="fas fa-hand-point-down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+</script>
+</html>

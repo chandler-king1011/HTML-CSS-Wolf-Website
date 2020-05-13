@@ -1,0 +1,108 @@
+/* home landing page styles */
+
+.home > .landing-wrapper {
+    background-image: url("/assets/images/home-background-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-wrapper > .header-wrapper {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-wrapper > .header-wrapper > h1 {
+    color: #14213d;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 900;
+    border-bottom: 2px solid #fca311;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.landing-wrapper > .header-wrapper > .audio-wrapper {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.landing-wrapper > .header-wrapper > .nav-links {
+    width: 45vw;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fca311;
+    color:#14213d;
+    box-shadow: 5px 5px 20px 2px rgba(20,33,61,0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.landing-wrapper > .header-wrapper > .nav-links a {
+    text-decoration: none;
+    color:#14213d;
+    font-weight: 400;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    transition: 0.2s ease-in-out;
+}
+
+.landing-wrapper > .header-wrapper > .nav-links a:hover {
+    border-bottom: 1px solid #14213d;
+    border-radius: 5px;
+}
+
+.landing-wrapper > .learn-more-wrapper form {
+    height: 350px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.learn-more-wrapper form input {
+    width: calc(100% - 20px);
+    height: 40px;
+    background-color: #14213d;
+    color:  #fca311;
+    border: none;
+    border-radius: 25px;
+    transition: 0.2s ease-in-out;
+    padding-left: 20px;
+    font-size: 1.1em;
+}
+
+.learn-more-wrapper form input:focus {
+    background-color: #E5E5E5;
+    color: #000000;
+    outline: none;
+}
+.learn-more-wrapper form input::placeholder {
+    color:  #fca311;
+}
+.learn-more-wrapper form button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #fca311;
+    color: #14213d;
+    font-size: 1.1em;
+    
+
+}
+
+
