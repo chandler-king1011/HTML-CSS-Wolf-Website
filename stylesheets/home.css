@@ -33,8 +33,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
+
+.landing-wrapper > .header-wrapper > .audio-wrapper p {
+    color: #14213d;
+}
+
+.landing-wrapper > .header-wrapper > .audio-wrapper i {
+    color: #fca311;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.landing-wrapper > .header-wrapper > .audio-wrapper i:hover {
+    color: #14213d;
+}
+
 
 .landing-wrapper > .header-wrapper > .nav-links {
     width: 45vw;
@@ -88,6 +103,7 @@
     background-color: #E5E5E5;
     color: #000000;
     outline: none;
+    box-shadow: 5px 5px 20px 2px rgba(20,33,61,0.5);
 }
 .learn-more-wrapper form input::placeholder {
     color:  #fca311;
@@ -101,8 +117,147 @@
     background-color: #fca311;
     color: #14213d;
     font-size: 1.1em;
-    
+    transition: 0.2s ease-in-out;
+}
 
+.learn-more-wrapper form button:hover {
+    background-color: #E5E5E5;
+}
+
+.learn-more-wrapper > .scroll-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.learn-more-wrapper > .scroll-wrapper > .scroll-heading {
+    color: #14213d;
+    font-size: 1.2em;
+}
+
+.learn-more-wrapper > .scroll-wrapper > .scroll-heading span {
+    color: #fca311;
+    font-size: 1.3em;
+}
+
+.learn-more-wrapper > .scroll-wrapper > i {
+    font-size: 1.5em;
+    color: #14213d;
 }
 
 
+
+
+/* home page body styles */ 
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wolf-class {
+    width: 750px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E5E5E5; 
+    border: 1px solid #fca311;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.wolf-class h2 {
+    font-family: 'Inknut Antiqua', serif;
+    color: #14213d;
+}
+
+.wolf-class > .wolf-class-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wolf-class > .wolf-class-bottom ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: 500;
+    color: #14213d;
+    letter-spacing: 0.1em;
+    
+}
+
+.wolf-class > .wolf-class-bottom ul li span {
+    border-bottom: 1px solid #fca311;
+}
+
+.wolf-class > .wolf-class-bottom img {
+    width: 250px;
+}
+
+
+.wolf-species {
+    width: 750px;
+
+}
+
+.wolf-species > .species-group {
+    background-color: #E5E5E5;
+    border: 1px solid #fca311;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.wolf-species > .species-group img {
+    width: 100%;
+}
+
+.wolf-species > .species-group h2 {
+    color: #14213d;
+    font-family:'Inknut Antiqua', serif;
+}
+
+.wolf-species > .species-group h3 {
+    color: #fca311;
+}
+
+.wolf-species > .species-group p {
+    line-height: 1.5em;
+}
+
+
+/* footer styles */
+
+.footer {
+    width: 100%;
+    background-color: #14213d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer > .social-media-wrapper {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fca311;
+}
+
+.footer > .social-media-wrapper a {
+    color: #fca311;
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+.footer > .rights {
+    color: #E5E5E5;
+    margin-bottom: 5px;
+}
