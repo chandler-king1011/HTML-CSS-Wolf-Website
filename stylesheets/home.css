@@ -233,31 +233,3 @@
 }
 
 
-/* footer styles */
-
-.footer {
-    width: 100%;
-    background-color: #14213d;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer > .social-media-wrapper {
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fca311;
-}
-
-.footer > .social-media-wrapper a {
-    color: #fca311;
-    font-size: 1.5em;
-    margin-right: 5px;
-}
-
-.footer > .rights {
-    color: #E5E5E5;
-    margin-bottom: 5px;
-}

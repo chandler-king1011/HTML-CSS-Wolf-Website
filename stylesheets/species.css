@@ -1,0 +1,43 @@
+.subspecies-body-wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subspecies-wrapper {
+    margin-bottom: 72px;
+    background-color: #e5e5e5;
+    border: 1px solid #fca311;
+    width: 75vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    align-items: center;
+    
+}
+
+
+.subspecies-wrapper > .subspecies-img {
+    height: 100%;
+}
+.subspecies-wrapper > .subspecies-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.subspecies-wrapper > .subspecies-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.subspecies-wrapper > .subspecies-content h3 {
+    color: #14213d;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.subspecies-wrapper > .subspecies-content h3 {
+    line-height: 1.5em;
+}
