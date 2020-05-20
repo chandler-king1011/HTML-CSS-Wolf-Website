@@ -40,6 +40,10 @@
     background-image: url("../assets/images/population-banner.jpg");
 }
 
+.header-wrapper >  .facts {
+    background-image: url("../assets/images/facts-banner.jpg");
+}
+
 
 .header-wrapper >  .header-banner > .header-banner-title-wrapper {
     margin-top: 5%;
