@@ -1,0 +1,37 @@
+.facts-body-wrapper {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topic-wrapper {
+    width: 75vw;
+    line-height: 2em;
+    margin-bottom: 50px;
+
+}
+
+
+.topic-wrapper > .topic-header {
+    color: #e63946;
+    font-family: "Inknut Antiqua", "serif";
+}
+
+.topic-wrapper > .topic-subs {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+}
+
+.topic-subs > .topic-sub h4 {
+    color: #a8dadc;
+}
+
+.topic-subs > .topic-sub img {
+    color: #a8dadc;
+    width: 560px;
+}

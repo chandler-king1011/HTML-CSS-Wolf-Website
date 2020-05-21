@@ -7,8 +7,8 @@
 
 .subspecies-wrapper {
     margin-bottom: 72px;
-    background-color: #e5e5e5;
-    border: 1px solid #fca311;
+    background-color: #1d3557;
+    border: 1px solid #e63946;
     width: 75vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,10 +34,11 @@
 }
 
 .subspecies-wrapper > .subspecies-content h3 {
-    color: #14213d;
+    color: #e63946;
     font-family: 'Inknut Antiqua', serif;
 }
 
-.subspecies-wrapper > .subspecies-content h3 {
+.subspecies-wrapper > .subspecies-content p {
+    color: #f1faee;
     line-height: 1.5em;
 }

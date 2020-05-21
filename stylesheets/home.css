@@ -20,10 +20,10 @@
 }
 
 .landing-wrapper > .header-wrapper > h1 {
-    color: #14213d;
+    color: #1D3557;
     font-family: 'Inknut Antiqua', serif;
     font-weight: 900;
-    border-bottom: 2px solid #fca311;
+    border-bottom: 2px solid #E63946;
     border-radius: 10px;
     padding-bottom: 5px;
 }
@@ -36,18 +36,18 @@
 }
 
 .landing-wrapper > .header-wrapper > .audio-wrapper p {
-    color: #14213d;
+    color:#1D3557;
 }
 
 .landing-wrapper > .header-wrapper > .audio-wrapper i {
-    color: #fca311;
+    color: #E63946;
     font-size: 1.5em;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
 .landing-wrapper > .header-wrapper > .audio-wrapper i:hover {
-    color: #14213d;
+    color: #1D3557;
 }
 
 
@@ -55,17 +55,16 @@
     width: 45vw;
     height: 50px;
     border-radius: 5px;
-    background-color: #fca311;
-    color:#14213d;
-    box-shadow: 5px 5px 20px 2px rgba(20,33,61,0.5);
+    background-color: #E63946;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .landing-wrapper > .header-wrapper > .nav-links a {
+    color: #F1FAEE;
     text-decoration: none;
-    color:#14213d;
     font-weight: 400;
     border-bottom: 1px solid transparent;
     padding-bottom: 2px;
@@ -73,7 +72,7 @@
 }
 
 .landing-wrapper > .header-wrapper > .nav-links a:hover {
-    border-bottom: 1px solid #14213d;
+    border-bottom: 1px solid #F1FAEE;
     border-radius: 5px;
 }
 
@@ -87,11 +86,15 @@
 }
 
 
+.learn-more-wrapper form > .form-title {
+    color: #1D3557;
+}
+
 .learn-more-wrapper form input {
     width: calc(100% - 20px);
     height: 40px;
-    background-color: #14213d;
-    color:  #fca311;
+    background-color: #457b9d;
+    color: #F1FAEE;
     border: none;
     border-radius: 25px;
     transition: 0.2s ease-in-out;
@@ -100,13 +103,13 @@
 }
 
 .learn-more-wrapper form input:focus {
-    background-color: #E5E5E5;
-    color: #000000;
+    background-color: #457b9d;
+    color: #F1FAEE;
     outline: none;
-    box-shadow: 5px 5px 20px 2px rgba(20,33,61,0.5);
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
 }
 .learn-more-wrapper form input::placeholder {
-    color:  #fca311;
+    color:  #a8dadc;
 }
 .learn-more-wrapper form button {
     height: 40px;
@@ -114,14 +117,19 @@
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    background-color: #fca311;
-    color: #14213d;
+    background-color: #1D3557;
+    color: #F1FAEE;
     font-size: 1.1em;
     transition: 0.2s ease-in-out;
 }
 
 .learn-more-wrapper form button:hover {
-    background-color: #E5E5E5;
+    background-color: #457b9d;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
+}
+
+.learn-more-wrapper form button:active {
+    outline: none;
 }
 
 .learn-more-wrapper > .scroll-wrapper {
@@ -132,18 +140,18 @@
 }
 
 .learn-more-wrapper > .scroll-wrapper > .scroll-heading {
-    color: #14213d;
+    color: #1D3557;
     font-size: 1.2em;
 }
 
 .learn-more-wrapper > .scroll-wrapper > .scroll-heading span {
-    color: #fca311;
+    color: #e63946;
     font-size: 1.3em;
 }
 
 .learn-more-wrapper > .scroll-wrapper > i {
     font-size: 1.5em;
-    color: #14213d;
+    color: #1D3557;
 }
 
 
@@ -164,15 +172,15 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #E5E5E5; 
-    border: 1px solid #fca311;
+    background-color: #1D3557; 
+    border: 1px solid #E63946;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
 .wolf-class h2 {
     font-family: 'Inknut Antiqua', serif;
-    color: #14213d;
+    color: #E63946;
 }
 
 .wolf-class > .wolf-class-bottom {
@@ -188,13 +196,13 @@
     justify-content: space-between;
     list-style-type: none;
     font-weight: 500;
-    color: #14213d;
+    color: #a8dadc;
     letter-spacing: 0.1em;
     
 }
 
 .wolf-class > .wolf-class-bottom ul li span {
-    border-bottom: 1px solid #fca311;
+    border-bottom: 1px solid #E63946;
 }
 
 .wolf-class > .wolf-class-bottom img {
@@ -208,8 +216,8 @@
 }
 
 .wolf-species > .species-group {
-    background-color: #E5E5E5;
-    border: 1px solid #fca311;
+    background-color:  #1D3557;
+    border: 1px solid #e63946;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
@@ -220,15 +228,16 @@
 }
 
 .wolf-species > .species-group h2 {
-    color: #14213d;
+    color: #E63946;
     font-family:'Inknut Antiqua', serif;
 }
 
 .wolf-species > .species-group h3 {
-    color: #fca311;
+    color: #a8dadc;
 }
 
 .wolf-species > .species-group p {
+    color: #F1FAEE;
     line-height: 1.5em;
 }
 

@@ -6,17 +6,17 @@
 
 .header-wrapper > .header-title-wrapper {
     height: 108px;
-    background-color: #14213d;
+    background-color: #1d3557;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .header-wrapper > .header-title-wrapper > h1 {
-    color: #fca311;
+    color: #e63946;
     font-family: 'Inknut Antiqua', serif;
     font-weight: 900;
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 2px solid #f1faee;
     border-radius: 10px;
     padding-bottom: 5px;
 }
@@ -49,7 +49,7 @@
     margin-top: 5%;
     height: 72px;
     width: 100%;    
-    background-color: #fca311;
+    background-color: #e63946;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,11 +57,11 @@
 .header-wrapper >  .header-banner > .header-banner-title-wrapper h2 {
     width: 50vw;
     text-align: center;
-    background-color: #14213d;
-    color: #e5e5e5;
+    background-color: #1d3557;
+    color: #f1faee;
     font-family: 'Inknut Antiqua', serif;
     border-radius: 5px;
-    box-shadow: 5px 5px 20px 2px rgba(20,33,61,0.5);
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
 
 }
 
@@ -74,25 +74,25 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-top: 1px solid #fca311;
-    border-bottom: 1px solid #fca311;
+    border-top: 1px solid #e63946;
+    border-bottom: 1px solid #e63946;
 
 }
 
 .header-wrapper > .nav-links a {
     text-decoration: none;
-    color: #14213d;
+    color: #1d3557;
     font-size: 1.2em;
     font-weight: 400;
     padding: 5px;
-    border-radius: 25px;
+    border-radius: 5px;
     transition: 0.2s ease-in-out;
 
 }
 
 .header-wrapper > .nav-links a:hover {
-    background-color: #fca311;
-    box-shadow: 5px 5px 20px 2px rgba(20,33,61,0.5);
+    background-color: #e63946;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
 }
 
 
