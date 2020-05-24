@@ -1,7 +1,7 @@
 /* home landing page styles */
 
 .home > .landing-wrapper {
-    background-image: url("/assets/images/home-background-img.jpg");
+    background-image: url("../assets/images/home-background-img.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
